@@ -7,7 +7,7 @@
 
 
 .header-title {
-  margin-top: 2rem;
+  margin-top: 2.8rem;
   font-size: 1.26rem;
   word-spacing: .1rem;
 }
@@ -21,7 +21,7 @@ hr {
   color: #ddd;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .header-title {
     font-size: 1.8rem;
     margin-bottom: 2rem;

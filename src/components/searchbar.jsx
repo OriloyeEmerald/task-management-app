@@ -9,7 +9,7 @@ import '../styles/searchbar.css'
        <br /> <br />
      <div className='date-input'>
       <label htmlFor="duedate">select date:</label>
-      <input type="date" value={dueDate} onChange={handleDueDate} />
+      <input type="date" value={dueDate} onChange={handleDueDate} placeholder='dd/mm/yyyy' />
      </div>
      </div>
      <br />
