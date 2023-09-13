@@ -1,0 +1,64 @@
+
+.task-input {
+    padding: .55rem 1.9rem; 
+    background: #cbc3e3;
+    border-radius: .2rem;
+    border: none;
+
+}
+
+.task-input:focus {
+    outline: none;
+}
+
+.date-input {
+    padding: .3rem 1rem;
+    background: #00a868;
+    border-radius: .1rem;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.date-input:focus {
+    outline: none;
+}
+
+button {
+    padding: .3rem .5rem;
+    border-radius: .2rem;
+    border: none;
+    background: #da70d6;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .6;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: ease-in-out .3s;
+}
+
+@media (min-width: 600px) {
+    .task-input {
+      padding: .8rem 9rem;
+      font-size: 1.2rem;
+    }
+    .task-input::placeholder {
+        font-size: 1.2rem; 
+    }
+    .date-input {
+      padding: .6rem 8rem;
+      font-size: 1.2rem; 
+    }
+
+    button {
+        padding: .6rem 1.4rem;
+        font-size: 1rem;
+    }
+
+ 
+ }

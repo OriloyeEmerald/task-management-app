@@ -1,0 +1,37 @@
+
+.task {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task-name {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+.duedate {
+    font-size: .8rem;
+}
+
+.del-btn {
+   padding:.2rem .3rem;
+   background: #ff3131;
+   margin-top: .9rem;
+   font-size: .8rem;
+}
+
+@media (min-width: 600px) {
+    .task-name {
+        font-size: 1.4rem;
+    }
+
+    .duedate {
+        font-size: 1.1rem;
+    }
+
+    .del-btn {
+        padding:.5rem .6rem;
+        
+     }
+
+}

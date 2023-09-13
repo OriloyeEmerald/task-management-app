@@ -1,0 +1,37 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.header-title {
+  margin-top: 2rem;
+  font-size: 1.26rem;
+  word-spacing: .1rem;
+}
+
+.h1 {
+  font-size: 1.1rem;
+  margin-top: 1.2rem;
+}
+
+hr {
+  color: #ddd;
+}
+
+@media (min-width: 600px) {
+  .header-title {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+  /* hr {
+       display: none; 
+  } */
+
+  .h1 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+}
