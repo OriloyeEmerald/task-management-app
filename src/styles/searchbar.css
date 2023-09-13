@@ -11,12 +11,18 @@
     outline: none;
 }
 
+label {
+    font-size: 1rem;
+    display:inline-block;
+    text-align: left;
+    padding-right: .3rem;
+}
+
 .date-input {
     padding: .3rem 1rem;
     background: #00a868;
-    border-radius: .1rem;
+    border-radius: .2rem;
     border: none;
-    color: #fff;
     cursor: pointer;
     text-align: center;
 }
@@ -51,7 +57,7 @@ button:hover {
         font-size: 1.2rem; 
     }
     .date-input {
-      padding: .6rem 8rem;
+      padding: .6rem 2rem;
       font-size: 1.2rem; 
     }
 
@@ -59,6 +65,10 @@ button:hover {
         padding: .6rem 1.4rem;
         font-size: 1rem;
     }
-
+    label {
+        font-size: 1.2rem;
+        display: inline-block;
+       padding-right: .3rem;
+    }
  
  }

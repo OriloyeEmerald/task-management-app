@@ -7,7 +7,10 @@ import '../styles/searchbar.css'
      <div>
       <input type="text" placeholder='enter task...' value={taskName} onChange={handleInput} className='task-input'/>
        <br /> <br />
-      <input type="date" value={dueDate} onChange={handleDueDate} className='date-input'/>
+     <div className='date-input'>
+      <label htmlFor="duedate">select date:</label>
+      <input type="date" value={dueDate} onChange={handleDueDate} />
+     </div>
      </div>
      <br />
       <button onClick={addTask}>Add task</button>
